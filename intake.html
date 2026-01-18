@@ -239,7 +239,7 @@
             document.querySelector('.submit-btn').disabled = true;
             
             try {
-                const response = await fetch('/intake', {
+                const response = await fetch('https://amazon-nova-intake.onrender.com/intake', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
